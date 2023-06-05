@@ -25,35 +25,11 @@ class Teacher(Person):
         return print(self.salary + (int(self.salary / 100 * 5) * (self.experience - 3) if self.experience > 2 else 0))
 
 
-# person = Person('Зулпукаров Марсель Кылычбекович', 16, 'нет')
-# person.introduce_myself()
-#
-# student = Student('Зулпукаров Марсель Кылычбекович', 16, 'нет', {
-#     'Математика': 5,
-#     'Информатика': 5,
-#     'Кыргыз тили': 3,
-#     'Физика': 4
-# })
-# student.average_mark()
-# teacher = Teacher('Сайкал', 37, 'Да', 10)
-# teacher.introduce_myself()
-# teacher.teacher_salary()
+
 
 def create_student():
     students = []
-    student.append(Student('Марсель', 16, 'Нет', {
-        'Математика': 5,
-        'Информатика': 5,
-        'Кыргыз тили': 3,
-        'Физика': 4
-    }))
-    student.append(Student('Алмаз', 16, 'Нет', {
-        'Математика': 5,
-        'Информатика': 5,
-        'Кыргыз тили': 3,
-        'Физика': 4
-    }))
-    student.append(Student('Асыл', 16, 'Нет', {
+    student.append(Student('Асан', 16, 'Нет', {
         'Математика': 5,
         'Информатика': 5,
         'Кыргыз тили': 3,
