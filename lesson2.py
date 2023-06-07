@@ -29,7 +29,7 @@ class RightTriangle(Figure):
         return 0.5 * self.__side_a * self.__side_b
 
     def info(self):
-        return f' RightTriangle side a: {self.__side_a}, side b: {self.__side_b}, area: {RightTriangle.calculate_area(self)}{Figure.unit}'
+        return f'RightTriangle side a: {self.__side_a}, side b: {self.__side_b}, area: {RightTriangle.calculate_area(self)}{Figure.unit}'
 
 right_triangle = RightTriangle(5, 8)
 print(right_triangle.calculate_area())
